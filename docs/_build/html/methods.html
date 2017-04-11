@@ -1,0 +1,273 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Methods for installing Openstack &mdash; AIOstack 0.2.1 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+        <link rel="index" title="Index"
+              href="genindex.html"/>
+        <link rel="search" title="Search" href="search.html"/>
+    <link rel="top" title="AIOstack 0.2.1 documentation" href="index.html"/>
+        <link rel="prev" title="Getting Started" href="get_started.html"/> 
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="index.html" class="icon icon-home"> AIOstack
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                0.2
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">User Documentation</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="get_started.html">Getting Started</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Methods for installing Openstack</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#rdo-packstack">RDO Packstack</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#openstack-ansible">OpenStack-Ansible</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#devstack">DevStack</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#tripleo">TripleO</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#fuel">Fuel</a></li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">AIOstack</a>
+        
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>Methods for installing Openstack</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/methods.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="methods-for-installing-openstack">
+<h1>Methods for installing Openstack<a class="headerlink" href="#methods-for-installing-openstack" title="Permalink to this headline">¶</a></h1>
+<p>There are many methods to deploy Openstack, here is a list of the supported methods</p>
+<ul class="simple">
+<li>rdo packstack &lt;default&gt;</li>
+<li>openstack-ansible</li>
+<li>devstack</li>
+<li>TripleO</li>
+<li>Fuel</li>
+</ul>
+<div class="section" id="rdo-packstack">
+<h2>RDO Packstack<a class="headerlink" href="#rdo-packstack" title="Permalink to this headline">¶</a></h2>
+<p>Using rdo packages to installOpenstack</p>
+<p><code class="code bash docutils literal"><span class="pre">./AIOstack.py</span> <span class="pre">--method</span> <span class="pre">rdo</span> <span class="pre">--version</span> <span class="pre">&lt;version&gt;</span></code></p>
+</div>
+<div class="section" id="openstack-ansible">
+<h2>OpenStack-Ansible<a class="headerlink" href="#openstack-ansible" title="Permalink to this headline">¶</a></h2>
+<p>Using Ansible</p>
+<p><code class="code bash docutils literal"><span class="pre">./AIOstack.py</span> <span class="pre">--method</span> <span class="pre">ansible</span> <span class="pre">--version</span> <span class="pre">&lt;version&gt;</span></code></p>
+</div>
+<div class="section" id="devstack">
+<h2>DevStack<a class="headerlink" href="#devstack" title="Permalink to this headline">¶</a></h2>
+<p>Using the ./stack.sh</p>
+<p><code class="code bash docutils literal"><span class="pre">./AIOstack.py</span> <span class="pre">--method</span> <span class="pre">devstack</span> <span class="pre">--version</span> <span class="pre">&lt;version&gt;</span></code></p>
+</div>
+<div class="section" id="tripleo">
+<h2>TripleO<a class="headerlink" href="#tripleo" title="Permalink to this headline">¶</a></h2>
+<p>TripleO is short for “OpenStack on OpenStack”</p>
+<p>Not implemented yet</p>
+</div>
+<div class="section" id="fuel">
+<h2>Fuel<a class="headerlink" href="#fuel" title="Permalink to this headline">¶</a></h2>
+<p>Fuel is an open-source tool that simplifies and accelerates the initial deployment of OpenStack</p>
+<p>Not implemented yet</p>
+</div>
+</div>
+
+
+           </div>
+           <div class="articleComments">
+            
+           </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+      
+        <a href="get_started.html" class="btn btn-neutral" title="Getting Started" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2017, Hamza Bourrahim.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'./',
+            VERSION:'0.2.1',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+      <script type="text/javascript" src="_static/jquery.js"></script>
+      <script type="text/javascript" src="_static/underscore.js"></script>
+      <script type="text/javascript" src="_static/doctools.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>

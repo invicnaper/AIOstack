@@ -1,0 +1,19 @@
+===========Changelog AIOstack=====================
+
+[Version 0.2]
+- Adding warnings
+- Adding --novm options to skip vm check
+
+[Version 0.1]
+- Only rdo method is supported
+- Adding animation while installing
+- Adding threads for installing packages
+- Adding hardware check (RAM>=4GB,newtork adapters <=1)
+- Adding OS and virtualisation check (using virt-what)
+- Adding ENV check
+- Adding ROOT check
+- Adding Header informations
+
+[Version 1.0 requirements]
+- psutil
+- virt-what

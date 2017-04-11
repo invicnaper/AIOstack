@@ -1,7 +1,7 @@
-[![GitHub license](https://img.shields.io/badge/license-GPLv2-blue.svg)](https://raw.githubusercontent.com/Facetracker-project/facetracker-core/master/COPYING)
-[![GitHub license](https://img.shields.io/badge/packages-youtube--dl%2Fbs4-red.svg)](https://raw.githubusercontent.com/Facetracker-project/facetracker-core/master/COPYING)
+[![GitHub license](https://img.shields.io/badge/license-GPLv3-blue.svg)](https://raw.githubusercontent.com/Facetracker-project/facetracker-core/master/COPYING)
+[![GitHub license](https://img.shields.io/badge/default-rdo-orange.svg)](https://raw.githubusercontent.com/Facetracker-project/facetracker-core/master/COPYING)
 [![GitHub license](https://img.shields.io/badge/author-naper-blue.svg)](https://raw.githubusercontent.com/Facetracker-project/facetracker-core/master/COPYING)
-[![GitHub license](https://img.shields.io/badge/version-0.0.1-orange.svg)](https://raw.githubusercontent.com/Facetracker-project/facetracker-core/master/COPYING)
+https://img.shields.io/badge/version-0.2-red.svg
 # AIOstack
 a python script that helps you to quickly deploy OpenStack on your Virtual Machine
 

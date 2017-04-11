@@ -1,7 +1,8 @@
 [![GitHub license](https://img.shields.io/badge/license-GPLv3-blue.svg)](https://raw.githubusercontent.com/Facetracker-project/facetracker-core/master/COPYING)
 [![GitHub license](https://img.shields.io/badge/default-rdo-orange.svg)](https://raw.githubusercontent.com/Facetracker-project/facetracker-core/master/COPYING)
 [![GitHub license](https://img.shields.io/badge/author-naper-blue.svg)](https://raw.githubusercontent.com/Facetracker-project/facetracker-core/master/COPYING)
-https://img.shields.io/badge/version-0.2-red.svg
+[![GitHub license](https://img.shields.io/badge/version-0.2-red.svg)](https://raw.githubusercontent.com/Facetracker-project/facetracker-core/master/COPYING)
+[![Documentation Status](https://readthedocs.org/projects/aiostack/badge/?version=latest)](http://aiostack.readthedocs.io/en/latest/?badge=latest)
 # AIOstack
 a python script that helps you to quickly deploy OpenStack on your Virtual Machine
 
@@ -32,7 +33,7 @@ This README would normally document whatever steps are necessary to get AIOstack
 
 Follow our ReadTheDocs documentation for installing AIOstack
 
-
+http://aiostack.readthedocs.io/en/latest/
 
 
 ### Contributors ###

@@ -13,21 +13,22 @@ This README would normally document whatever steps are necessary to get AIOstack
 ### What is this repository for? ###
 
 * AIOstack allows you to quickly deploy OpenStack on your Virtual Machine
-* Version 0.2
+* Version 0.3
 * This repo contains AIOstack source code
 
 ### Quick Informations ###
 
 * AIOstack is python script
-* Version 0.2 Only support rdo packstack method
+* Version 0.3 support rdo packstack and devstack method
 * Rdo packstack method only works on CentOS
+* DevStack method only works on Ubuntu
 * The goal of this repo is to help you install OpenStack using different methods
-* Version 0.2
+* Version 0.3
 * www.github.com/invicnaper/AIOstack
 
 ### Screen ###
 
-![alt text](http://i.imgur.com/fihaKfG.png "AIOstack screen")
+![alt text](http://i.imgur.com/nY3yEPo.png "AIOstack screen")
 
 # How to Install ?
 
@@ -41,3 +42,5 @@ http://aiostack.readthedocs.io/en/latest/
 * Hamza Bourrahim
 
 ### Testers ###
+
+* Worphy Bimboutsa

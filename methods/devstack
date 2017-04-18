@@ -1,0 +1,8 @@
+--------------DevStack steps--------------
+
+- clone DevStack
+- git checkout to ocata
+- edit local.conf
+- ./stack.sh
+- Start apache
+- Check connection to horizon

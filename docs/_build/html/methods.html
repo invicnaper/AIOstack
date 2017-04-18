@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Methods for installing Openstack &mdash; AIOstack 0.2.1 documentation</title>
+  <title>Methods for installing Openstack &mdash; AIOstack 0.3.1 documentation</title>
   
 
   
@@ -35,7 +35,8 @@
         <link rel="index" title="Index"
               href="genindex.html"/>
         <link rel="search" title="Search" href="search.html"/>
-    <link rel="top" title="AIOstack 0.2.1 documentation" href="index.html"/>
+    <link rel="top" title="AIOstack 0.3.1 documentation" href="index.html"/>
+        <link rel="next" title="Arguments" href="options.html"/>
         <link rel="prev" title="Getting Started" href="get_started.html"/> 
 
   
@@ -65,7 +66,7 @@
             
             
               <div class="version">
-                0.2
+                0.3
               </div>
             
           
@@ -94,12 +95,15 @@
 <li class="toctree-l1"><a class="reference internal" href="get_started.html">Getting Started</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Methods for installing Openstack</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#rdo-packstack">RDO Packstack</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#openstack-ansible">OpenStack-Ansible</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#devstack">DevStack</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#openstack-ansible">OpenStack-Ansible</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#tripleo">TripleO</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#fuel">Fuel</a></li>
 </ul>
 </li>
+<li class="toctree-l1"><a class="reference internal" href="options.html">Arguments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="requirements.html">Requirements</a></li>
+<li class="toctree-l1"><a class="reference internal" href="changelog.html">Changelog Version 0.3</a></li>
 </ul>
 
             
@@ -167,9 +171,9 @@
 <h1>Methods for installing Openstack<a class="headerlink" href="#methods-for-installing-openstack" title="Permalink to this headline">¶</a></h1>
 <p>There are many methods to deploy Openstack, here is a list of the supported methods</p>
 <ul class="simple">
-<li>rdo packstack &lt;default&gt;</li>
-<li>openstack-ansible</li>
+<li>rdo packstack</li>
 <li>devstack</li>
+<li>openstack-ansible</li>
 <li>TripleO</li>
 <li>Fuel</li>
 </ul>
@@ -178,15 +182,16 @@
 <p>Using rdo packages to installOpenstack</p>
 <p><code class="code bash docutils literal"><span class="pre">./AIOstack.py</span> <span class="pre">--method</span> <span class="pre">rdo</span> <span class="pre">--version</span> <span class="pre">&lt;version&gt;</span></code></p>
 </div>
+<div class="section" id="devstack">
+<h2>DevStack<a class="headerlink" href="#devstack" title="Permalink to this headline">¶</a></h2>
+<p>Using the ./stack.sh</p>
+<p><code class="code bash docutils literal"><span class="pre">./AIOstack.py</span> <span class="pre">--method</span> <span class="pre">devstack</span> <span class="pre">--version</span> <span class="pre">&lt;version&gt;</span> <span class="pre">--interface</span> <span class="pre">&lt;name&gt;</span></code></p>
+<p><strong>&#8211;interface</strong> is required if you&#8217;re using devstack</p>
+</div>
 <div class="section" id="openstack-ansible">
 <h2>OpenStack-Ansible<a class="headerlink" href="#openstack-ansible" title="Permalink to this headline">¶</a></h2>
 <p>Using Ansible</p>
 <p><code class="code bash docutils literal"><span class="pre">./AIOstack.py</span> <span class="pre">--method</span> <span class="pre">ansible</span> <span class="pre">--version</span> <span class="pre">&lt;version&gt;</span></code></p>
-</div>
-<div class="section" id="devstack">
-<h2>DevStack<a class="headerlink" href="#devstack" title="Permalink to this headline">¶</a></h2>
-<p>Using the ./stack.sh</p>
-<p><code class="code bash docutils literal"><span class="pre">./AIOstack.py</span> <span class="pre">--method</span> <span class="pre">devstack</span> <span class="pre">--version</span> <span class="pre">&lt;version&gt;</span></code></p>
 </div>
 <div class="section" id="tripleo">
 <h2>TripleO<a class="headerlink" href="#tripleo" title="Permalink to this headline">¶</a></h2>
@@ -209,6 +214,8 @@
           <footer>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="options.html" class="btn btn-neutral float-right" title="Arguments" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
         <a href="get_started.html" class="btn btn-neutral" title="Getting Started" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
@@ -242,7 +249,7 @@
     <script type="text/javascript">
         var DOCUMENTATION_OPTIONS = {
             URL_ROOT:'./',
-            VERSION:'0.2.1',
+            VERSION:'0.3.1',
             COLLAPSE_INDEX:false,
             FILE_SUFFIX:'.html',
             HAS_SOURCE:  true,

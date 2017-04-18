@@ -5,9 +5,9 @@ Methods for installing Openstack
 
 There are many methods to deploy Openstack, here is a list of the supported methods
 
-- rdo packstack <default>
-- openstack-ansible
+- rdo packstack
 - devstack
+- openstack-ansible
 - TripleO
 - Fuel
 
@@ -18,17 +18,20 @@ Using rdo packages to installOpenstack
 
 :bash:`./AIOstack.py --method rdo --version <version>`
 
+DevStack
+---------------
+Using the ./stack.sh
+
+:bash:`./AIOstack.py --method devstack --version <version> --interface <name>`
+
+**--interface** is required if you're using devstack
+
 OpenStack-Ansible
 ------------------
 Using Ansible
 
 :bash:`./AIOstack.py --method ansible --version <version>`
 
-DevStack
----------------
-Using the ./stack.sh
-
-:bash:`./AIOstack.py --method devstack --version <version>`
 
 TripleO
 ----------

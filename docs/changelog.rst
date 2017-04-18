@@ -1,7 +1,29 @@
-Changelog Version 0.2
+Changelog Version 0.3
 =====================
-This is the changelog of the version 0.2
+This is the changelog of the version 0.3
 
+version 0.3
+--------------
+- Correcting UserChange Bug
+- Changing display
+- Aadding --force to force devstack
+- Passwords can be set on install
+- Adding aiostack user
+- Adding password read
+- Adding --interface for devstack method
+- Adding tasks
+- Adding git support (install GitPython and git)
+- Changing --novm to --no-vm
+- Adding --no-hardware for skiping ahrdware check
+- Adding information about Hypervisor
+- Correcting bug Abort install when running in VM
+- Install python-dev for psutil -> sudo apt-get install python2.7-dev
+- Correcting bug when virt-what is instlled and not running in VM
+- Correcting display errors
+- Correcting bug with *args while installing virt-what
+- Correcting bug when checking OS
+- Correcting bug if virt-what is not installed
+- Adding support for devstack method
 
 Version 0.2
 --------------
@@ -10,7 +32,7 @@ Version 0.2
 - Adding --novm options to skip vm check
 
 Version 0.1
-----------------
+--------------
 - Only rdo method is supported
 - Adding animation while installing
 - Adding threads for installing packages

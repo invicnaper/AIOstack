@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Arguments &mdash; AIOstack 0.2.1 documentation</title>
+  <title>Arguments &mdash; AIOstack 0.3.1 documentation</title>
   
 
   
@@ -35,7 +35,8 @@
         <link rel="index" title="Index"
               href="genindex.html"/>
         <link rel="search" title="Search" href="search.html"/>
-    <link rel="top" title="AIOstack 0.2.1 documentation" href="index.html"/>
+    <link rel="top" title="AIOstack 0.3.1 documentation" href="index.html"/>
+        <link rel="next" title="Requirements" href="requirements.html"/>
         <link rel="prev" title="Methods for installing Openstack" href="methods.html"/> 
 
   
@@ -65,7 +66,7 @@
             
             
               <div class="version">
-                0.2
+                0.3
               </div>
             
           
@@ -98,8 +99,12 @@
 <li class="toctree-l2"><a class="reference internal" href="#version">&#8211;version</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#novm">&#8211;novm</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#nohardware">&#8211;nohardware</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#interface">&#8211;interface</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#force">&#8211;force</a></li>
 </ul>
 </li>
+<li class="toctree-l1"><a class="reference internal" href="requirements.html">Requirements</a></li>
+<li class="toctree-l1"><a class="reference internal" href="changelog.html">Changelog Version 0.3</a></li>
 </ul>
 
             
@@ -169,8 +174,10 @@
 <ul class="simple">
 <li>&#8211;method</li>
 <li>&#8211;version</li>
-<li>&#8211;novm</li>
-<li>&#8211;nohardware</li>
+<li>&#8211;no-vm</li>
+<li>&#8211;no-hardware</li>
+<li>&#8211;interface</li>
+<li>&#8211;force</li>
 </ul>
 <div class="section" id="method">
 <h2>&#8211;method<a class="headerlink" href="#method" title="Permalink to this headline">¶</a></h2>
@@ -190,6 +197,15 @@
 <h2>&#8211;nohardware<a class="headerlink" href="#nohardware" title="Permalink to this headline">¶</a></h2>
 <p>Disabling the check of hardware perf</p>
 </div>
+<div class="section" id="interface">
+<h2>&#8211;interface<a class="headerlink" href="#interface" title="Permalink to this headline">¶</a></h2>
+<p>set the interface name, ex : eth0</p>
+<p>This is required when using devstack</p>
+</div>
+<div class="section" id="force">
+<h2>&#8211;force<a class="headerlink" href="#force" title="Permalink to this headline">¶</a></h2>
+<p>to force devstack to install OpenStack</p>
+</div>
 </div>
 
 
@@ -201,6 +217,8 @@
           <footer>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="requirements.html" class="btn btn-neutral float-right" title="Requirements" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
         <a href="methods.html" class="btn btn-neutral" title="Methods for installing Openstack" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
@@ -234,7 +252,7 @@
     <script type="text/javascript">
         var DOCUMENTATION_OPTIONS = {
             URL_ROOT:'./',
-            VERSION:'0.2.1',
+            VERSION:'0.3.1',
             COLLAPSE_INDEX:false,
             FILE_SUFFIX:'.html',
             HAS_SOURCE:  true,

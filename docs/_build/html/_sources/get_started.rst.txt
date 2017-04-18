@@ -20,3 +20,7 @@ The **rdo packstack** method needs the root privileges , so add sudo to the comm
 :bash:`sudo ./AIOstack.py --method rdo --version ocata`
 
 The script will check if you're running it as root or not.
+
+You can also install it using the devstack method
+
+:bash:`sudo ./AIOstack.py --method devstack --version ocata --interface eth0`

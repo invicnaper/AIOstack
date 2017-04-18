@@ -6,8 +6,10 @@ There many arguments for using AIOstack, here's the full-list :
 
 - --method
 - --version
-- --novm
-- --nohardware
+- --no-vm
+- --no-hardware
+- --interface
+- --force
 
 
 --method
@@ -30,3 +32,14 @@ Disabling the check of the virtual machine
 --nohardware
 -----------------
 Disabling the check of hardware perf
+
+--interface
+-----------------
+set the interface name, ex : eth0
+
+This is required when using devstack
+
+
+--force
+-----------------
+to force devstack to install OpenStack

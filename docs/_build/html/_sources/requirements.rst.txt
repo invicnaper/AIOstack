@@ -4,8 +4,26 @@ Requirements
 =============
 To use AIOstack, you need to install some extras tools, here's the list of the requirements
 
-Version 1.0 requirements
+
+Version 0.3 requirements
 -------------------------
+
+Git
+~~~~~~~~~~
+
+:bash:`sudo apt-get  install git`
+
+GitPython
+~~~~~~~~~~
+:bash:`pip install gitpython`
+
+
+Version 0.1 requirements
+-------------------------
+
+python-dev
+~~~~~~~~~~
+:bash:`sudo apt-get  install python-dev`
 
 psutil
 ~~~~~~~~~~
